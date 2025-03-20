@@ -24,14 +24,15 @@
   "license": "MIT",
   "homepage": "https://github.com/sinclairzx81/typebox-codegen#readme",
   "devDependencies": {
-    "@sinclair/hammer": "^0.17.2",
-    "@types/node": "^18.15.11",
+    "@arethetypeswrong/cli": "^0.13.2",
+    "@sinclair/hammer": "^0.18.0",
+    "@types/node": "^22.13.5",
     "@types/prettier": "^2.7.2"
   },
   "dependencies": {
     "@sinclair/typebox": "^0.33.1",
     "prettier": "^2.8.7",
-    "typescript": "^5.4.5"
+    "typescript": "^5.8.2"
   },
   "prettier": {
     "printWidth": 240,

@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "strict": true,
-    "module": "CommonJS",
-    "target": "ESNext",
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "baseUrl": ".",
     "paths": {
       "@sinclair/typebox-codegen": ["src/index.ts"]
