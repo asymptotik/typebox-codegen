@@ -47,7 +47,7 @@ function replaceInlineImportSpecifiers(content: string): string {
 }
 // prettier-ignore
 function replaceExportSpecifiers(content: string): string {
-  const pattern = /(export|import)(.*) from ('(.*)');/g
+  const pattern = /(export|import)(.*) from ('(\..*)');/g
   while(true) {
     const match = pattern.exec(content)
     if(match === null) return content
